@@ -1,0 +1,26 @@
+h1 {
+  text-align: center;
+  background-color:brown;
+  margin-bottom: 0;
+  padding: 10px 0 10px 0;
+  color: white;
+}
+
+header > nav {
+  background-color:brown;
+}
+
+ul {
+  margin : 0;
+  padding: 0;
+  background-color:brown;
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+  color: white;
+  height: 60px;
+  align-items: center;
+  font-size: large;
+  font-weight: bold;
+}
+
