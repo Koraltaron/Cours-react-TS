@@ -15,6 +15,8 @@ function App() {
 
   // La bonne version avec tableau destructurer
   const [counter, setCounter] = useState(0);
+  // Attention à ne pas mettre le setter en dehors de la fonction retour dans un bouton, car il est possible de déclencher une boucle infinie !
+  // Le setter s'excecute et rafraîchit le composant pour recommencer à l'infini !
   
   return (
     <>
